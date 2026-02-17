@@ -1,7 +1,7 @@
+import UploadPicture from "./components/UploadForm";
 
 
 function App() {
-
 
   return (
 
@@ -15,6 +15,9 @@ function App() {
       <main>
 
       <h2>Upload a picture of your Nail</h2>
+      
+      <UploadPicture/ >
+
 
       </main>
 
@@ -22,7 +25,7 @@ function App() {
       <footer>
 
         <p>© 2026 Nail AI</p>
-        
+
       </footer>
 
 
