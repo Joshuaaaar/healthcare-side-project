@@ -1,11 +1,12 @@
 import UploadPicture from "./components/UploadForm";
-
+import ResultDiag from "./components/Result"
 
 function App() {
 
   return (
 
     <div>
+      
       <header>
 
       <h1>Nail Scanner App</h1>
@@ -16,8 +17,9 @@ function App() {
 
       <h2>Upload a picture of your Nail</h2>
       
-      <UploadPicture/ >
+      <UploadPicture/>
 
+      <ResultDiag/>
 
       </main>
 
